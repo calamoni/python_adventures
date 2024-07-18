@@ -12,7 +12,6 @@ def questionare():
 def generator_special(): 
 
     index = 0
-    password = type
 
     while index < 15:
         print(random.choice(string.ascii_letters), end='')
