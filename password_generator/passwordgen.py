@@ -22,7 +22,6 @@ def generator_special():
 def generator_number(): 
 
     index = 0
-    password = type
 
     while index < 15:
         print(random.choice(string.ascii_letters), end='')
