@@ -1,7 +1,7 @@
 import random
 import string
 
-def questionare():
+def questionnaire():
     special_char = input("Are special characters allowed? [Y,N]")
 
     if special_char == "Y":
@@ -30,4 +30,4 @@ def generator_number():
         print(random.choice(string.digits), end='')
         index +=1
 
-questionare()
+questionnaire()
