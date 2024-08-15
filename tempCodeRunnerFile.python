@@ -1,0 +1,8 @@
+def decipher_string(s):
+    cipher_text="iseshkncudobsytemteigolntetou"
+
+    split_text =cipher_text.split()
+
+    print(split_text)
+
+    decipher_string()
